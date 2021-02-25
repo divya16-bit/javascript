@@ -1,0 +1,10 @@
+let t=123;
+    let rem=0;
+    let final=0;
+    while(t>0)
+		{
+			rem=t%10;
+			t= parseInt(t/10);
+			final=final*10+rem;
+		}
+console.log(final);
